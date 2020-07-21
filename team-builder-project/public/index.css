@@ -16,3 +16,18 @@
   width: 50%;
   text-align: center;
 }
+
+.form-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-main button {
+  margin-top: 2%;
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
