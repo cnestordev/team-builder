@@ -1,33 +1,27 @@
-.member-container {
+body {
+  background: #000;
+}
+
+input {
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5% 2%;
+}
+
+#role {
+  background: black;
+  color: #fff;
+  padding: 0.5%;
+  margin: 1% auto;
+}
+
+button {
+  border: 1px solid white;
   border-radius: 5px;
-  color: #0a0a0a;
-  width: 17%;
-  display: inline-block;
-  margin: 2%;
-  text-align: center;
-  font-family: sans-serif;
-  padding: 1%;
-}
-
-.form-container {
-  border: 1px solid black;
-  padding: 3% 0;
-  margin: 5% auto;
-  width: 50%;
-  text-align: center;
-}
-
-.form-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.form-main button {
-  margin-top: 2%;
-}
-
-h2 {
-  text-align: center;
-  font-family: sans-serif;
+  background: #000;
+  padding: 0.5% 1%;
+  color: #fff;
 }
